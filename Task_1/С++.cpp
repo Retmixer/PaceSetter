@@ -64,3 +64,19 @@ int main() {
     
     return 0;
 }
+
+
+//Стеком №2
+#include <iostream>
+#include <stack>
+ 
+int main()
+{
+    std::stack<std::string> stack;
+    // добавляем три элемента
+    stack.push("Tom");
+    stack.push("Bob");
+    stack.push("Sam");
+ 
+    std::cout << "stack size: " << stack.size() << std::endl; // stack size: 3
+
