@@ -19,7 +19,16 @@ li_2 = li[1::2]
 # Сам список удаляем. 
 del li 
 # Выводим полученные списки на экран. 
-print(li_1, li_2, sep='\n\n') 
+print(li_1, li_2, sep='\n\n')
+
+## Стеком №2
+stack =  
+stack.append('a')  
+stack.append('b')  
+stack.append('c')  
+print(stack)  
+# Вывод: ['a', 'b', 'c']
+
 
 
 
